@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="viwewith">269dp</dimen>
+    <dimen name="viewHeight">62dp</dimen>
+    <dimen name="textsize">25dp</dimen>
+    <dimen name="coner_size">20dp</dimen>
+    <dimen name="tickewidth">308dp</dimen>
+    <dimen name="ticletheight">53dp</dimen>
+    <dimen name="textviewWidth">159dp</dimen>
+    <dimen name="textviewheight">49dp</dimen>
+    <dimen name="buttoneconnerRadius">24dp</dimen>
+</resources>

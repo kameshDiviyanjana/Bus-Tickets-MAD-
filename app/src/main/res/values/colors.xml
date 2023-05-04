@@ -7,4 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="deietecloure">#DD1B0D</color>
+    <color name="Addcloure">#66EC6B</color>
+    <color name="texthint">#2C2626</color>
+
+    <color name="themclore">#009dff</color>
+    <color name="app_light">#f6fbff</color>
+    <color name="app_text_boder">#03A9F4</color>
+    <color name="app_text_background">#f6fbff</color>
+    <color name="yelow">#ffff33</color>
+    <color name="hintcolore">#B9B2B2</color>
+
 </resources>

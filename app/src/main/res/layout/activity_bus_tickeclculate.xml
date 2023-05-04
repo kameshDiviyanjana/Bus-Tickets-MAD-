@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CA2F2F"
+    android:backgroundTint="@color/app_text_boder"
+    tools:context=".BusTickeclculate">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView2"
+        style="@style/custom_card_view_style"
+        android:layout_width="362dp"
+        android:layout_height="642dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="388dp"
+            android:layout_height="718dp">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="229dp"
+                android:layout_height="70dp"
+                android:backgroundTint="#2AD130"
+                android:text="Ticket"
+                android:textColor="#FDFBFB"
+                app:cornerRadius="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.301"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.844" />
+
+            <EditText
+                android:id="@+id/nopassenger"
+                android:layout_width="@dimen/tickewidth"
+                android:layout_height="@dimen/ticletheight"
+                android:background="@drawable/textshap"
+                android:ems="10"
+                android:hint="@string/passengers"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColorHint="@color/hintcolore"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/toedite"
+                android:layout_width="@dimen/tickewidth"
+                android:layout_height="@dimen/ticletheight"
+                android:background="@drawable/textshap"
+                android:ems="10"
+                android:hint="@string/To"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColorHint="@color/hintcolore"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.088"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.32" />
+
+            <EditText
+                android:id="@+id/km"
+                android:layout_width="@dimen/tickewidth"
+                android:layout_height="@dimen/ticletheight"
+                android:background="@drawable/textshap"
+                android:ems="10"
+                android:hint="@string/km"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColorHint="@color/hintcolore"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.212"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.718" />
+
+            <EditText
+                android:id="@+id/from"
+                android:layout_width="@dimen/tickewidth"
+                android:layout_height="@dimen/ticletheight"
+                android:background="@drawable/textshap"
+                android:ems="10"
+                android:hint="@string/From"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColorHint="@color/hintcolore"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.1" />
+
+            <TextView
+                android:id="@+id/hati2"
+                android:layout_width="@dimen/textviewWidth"
+                android:layout_height="@dimen/textviewheight"
+                android:text="@string/To"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.358"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.207" />
+
+            <TextView
+                android:id="@+id/hati5"
+                android:layout_width="@dimen/textviewWidth"
+                android:layout_height="@dimen/textviewheight"
+                android:text="@string/km"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.397"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.609" />
+
+            <TextView
+                android:id="@+id/hati4"
+                android:layout_width="@dimen/textviewWidth"
+                android:layout_height="@dimen/textviewheight"
+                android:text="passenger"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.358"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.402" />
+
+            <TextView
+                android:id="@+id/hati"
+                android:layout_width="@dimen/textviewWidth"
+                android:layout_height="@dimen/textviewheight"
+                android:text="@string/From"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.358"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.01" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/hati25"
+        android:layout_width="185dp"
+        android:layout_height="43dp"
+        android:text="Ticket"
+        android:textAlignment="center"
+        android:textColor="@color/app_text_background"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">BUSTicket</string>
+    <string name="NewBushalt">New Bus halt</string>
+    <string name="Delete">Delete Halt</string>
+    <string name="From">From</string>
+    <string name="To">to</string>
+    <string name="passengers">Number passenger</string>
+    <string name="km">KM</string>
 </resources>
