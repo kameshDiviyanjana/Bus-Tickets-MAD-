@@ -7,14 +7,15 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.database.*
 
 class MainActivity : AppCompatActivity() {
-  /*  private lateinit var dbconnecte :DatabaseReference
-    private lateinit var recycleBus : RecyclerView
+   private lateinit var dbconnecte :DatabaseReference
+    /*private lateinit var recycleBus : RecyclerView
     private lateinit var buslist : ArrayList<BusHallt>
     lateinit var  adapt : Myadapter
     lateinit var serch : ImageView*/
@@ -24,11 +25,37 @@ class MainActivity : AppCompatActivity() {
 
       setContentView(R.layout.activity_main)
       val k = findViewById<Button>(R.id.nextx)
-
+        val username = findViewById<EditText>(R.id.usenameEdt)
+        val password = findViewById<EditText>(R.id.passwordEdt)
+       val singin = findViewById<TextView>(R.id.singin)
+        singin.setOnClickListener{
+            val o = Intent(this,RegistewrUser::class.java)
+            startActivity(o)
+        }
       k.setOnClickListener {
 
-          val o = Intent(this,bashborde::class.java)
-          startActivity(o)
+          dbconnecte = FirebaseDatabase.getInstance().getReference("Users")
+          val Username = username.text.toString()
+          val AuthPassword = password.text.toString()
+           dbconnecte.child(Username).get().addOnSuccessListener {
+               if(it.exists()){
+                   val auser = it.child("username").value
+                   val email= it.child("email").value
+                   val passw =it.child("passwored").value
+                   val disname = it.child("displayename").value
+
+
+                   if ((Username ==auser) && (AuthPassword == passw)){
+                       val o = Intent(this,bashborde::class.java)
+                       startActivity(o)
+                   }else{
+                       Toast.makeText(this,"plese enter correcte",Toast.LENGTH_LONG).show()
+                   }
+               }else{
+                   Toast.makeText(this,"Enter plese enter correcte",Toast.LENGTH_LONG).show()
+               }
+           }
+
 
       }
       /*
