@@ -9,16 +9,16 @@
 
     <com.google.android.material.card.MaterialCardView
         style="@style/custom_card_view_style_dashborde"
-        android:layout_width="330dp"
-        android:layout_height="144dp"
+        android:layout_width="320dp"
+        android:layout_height="141dp"
         app:cardElevation="24dp"
         app:layout_constraintEnd_toStartOf="@+id/guideline8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline9">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="355dp"
-            android:layout_height="143dp"
+            android:layout_width="345dp"
+            android:layout_height="136dp"
             android:textAlignment="center"
 
 

@@ -6,14 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".displayeHalt">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/Allhatldiapalya"
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:background="#A84747"
+    <com.google.android.material.card.MaterialCardView
+        style="@style/border_bottome"
+        android:layout_width="408dp"
+        android:layout_height="740dp"
         android:backgroundTint="@color/themclore"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/Allhatldiapalya"
+            android:layout_width="337dp"
+            android:layout_height="681dp"
+            android:background="#A84747"
+            android:backgroundTint="@color/themclore" />
+    </com.google.android.material.card.MaterialCardView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
