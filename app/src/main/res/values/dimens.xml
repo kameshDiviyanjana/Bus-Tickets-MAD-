@@ -9,4 +9,6 @@
     <dimen name="textviewWidth">159dp</dimen>
     <dimen name="textviewheight">49dp</dimen>
     <dimen name="buttoneconnerRadius">24dp</dimen>
+    <dimen name="bookinwidth">268dp</dimen>
+    <dimen name="bookingheight">58dp</dimen>
 </resources>

@@ -27,5 +27,14 @@ class bashborde : AppCompatActivity() {
             val halt = Intent(this,displayeHalt::class.java)
             startActivity(halt)
         }
+        profile.setOnClickListener{
+
+            val halts = Intent(this,ShitheBooking::class.java)
+            startActivity(halts)
+        }
+        money.setOnClickListener{
+            val timeTable = Intent(this,AddBusTime::class.java)
+            startActivity(timeTable)
+        }
     }
 }

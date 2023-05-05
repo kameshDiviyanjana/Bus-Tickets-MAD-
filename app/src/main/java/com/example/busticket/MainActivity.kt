@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
 
           val o = Intent(this,bashborde::class.java)
           startActivity(o)
+
       }
       /*
        val HaltId = findViewById<EditText>(R.id.haltid)

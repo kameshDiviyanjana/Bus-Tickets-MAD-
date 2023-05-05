@@ -54,4 +54,31 @@
 
 
     </style>
+    <style name="border_bottome" parent="Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/border_bottome_style</item>
+    </style>
+    <style name="border_bottome_style" parent="">
+
+        <item name="cornerFamily" >rounded</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeBottomRight">148dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+
+
+    </style>
+    <style name="border_bottome_top" parent="Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/border_bottome_style_tops</item>
+    </style>
+    <style name="border_bottome_style_tops" parent="">
+
+        <item name="cornerFamily" >rounded</item>
+        <item name="cornerSizeTopLeft">148dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+
+
+    </style>
+
 </resources>
