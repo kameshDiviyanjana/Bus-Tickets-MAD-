@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\layout_activity_bookinupdate_delete.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\layout\\activity_bookinupdate_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\drawable_ic_baseline_directions_bus_24.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\drawable\\ic_baseline_directions_bus_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\layout_itemas.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\layout\\itemas.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\layout_activity_user_profile.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\layout\\activity_user_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\drawable__23_6230347_registration_online_vector_png_transparent_png__1_.png.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\drawable\\_23_6230347_registration_online_vector_png_transparent_png__1_.png"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\layout_activity_user_update_delete.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\layout\\activity_user_update_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\drawable_shape_backgronde.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\drawable\\shape_backgronde.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\layout_activity_qrticket.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\layout\\activity_qrticket.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\drawable_whatsapp_image_2023_04_21_at_09_44_51.jpg.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\drawable\\whatsapp_image_2023_04_21_at_09_44_51.jpg"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\layout_activity_registewr_user.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\layout\\activity_registewr_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\drawable_textshap.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\drawable\\textshap.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\layout_activity_add_bus_time.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\layout\\activity_add_bus_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\drawable_ic_baseline_attach_money_24.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\drawable\\ic_baseline_attach_money_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\drawable_oipticke.jpeg.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\drawable\\oipticke.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\drawable_rondeconner.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\drawable\\rondeconner.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\layout_activity_shithe_booking.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\layout\\activity_shithe_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\drawable_bushalt.png.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\drawable\\bushalt.png"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\drawable_ic_baseline_lock_24.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\drawable\\ic_baseline_lock_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.busticket.app-merged_res-34:/layout_activity_registewr_user.xml.flat",
+        "source": "com.example.busticket.app-main-36:/layout/activity_registewr_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\layout_activity_displaye_halt.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\layout\\activity_displaye_halt.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\layout_activity_add_bus_halt.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\layout\\activity_add_bus_halt.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\layout_activity_bus_time_table.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\layout\\activity_bus_time_table.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\drawable_ic_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\drawable\\ic_baseline_search_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\drawable_ic_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\drawable\\ic_baseline_home_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\drawable_ic_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\drawable\\ic_baseline_person_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\layout_activity_bashborde.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\layout\\activity_bashborde.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\font_roboto.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\font\\roboto.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\drawable_ic_baseline_arrow_back_ios_24.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\drawable\\ic_baseline_arrow_back_ios_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\drawable_ic_baseline_add_24.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\drawable\\ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\drawable_avatar_profile_vector_png_clipart.png.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\drawable\\avatar_profile_vector_png_clipart.png"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\layout_dispalye_halt.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\layout\\dispalye_halt.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-merged_res-34:\\layout_activity_bus_tickeclculate.xml.flat",
+        "source": "C:\\Users\\boshi\\.gradle\\daemon\\7.4\\com.example.busticket.app-main-36:\\layout\\activity_bus_tickeclculate.xml"
+    }
+]

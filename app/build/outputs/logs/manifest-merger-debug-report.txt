@@ -1,0 +1,499 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:2:1-110:12
+INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:2:1-110:12
+INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:2:1-110:12
+INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:2:1-110:12
+MERGED from [com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\407b76dbdc7b3c96b54cd8bd8cc30db9\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.android.material:material:1.8.0] C:\Users\boshi\.gradle\caches\transforms-3\9d64dedd185ec454abd2312844bec8eb\transformed\material-1.8.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\boshi\.gradle\caches\transforms-3\f3c4330b4d3d4f74bf51d71f8b28c872\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.0] C:\Users\boshi\.gradle\caches\transforms-3\dfb7a0d9dfed408f2e7e0f1aca6425da\transformed\appcompat-resources-1.5.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.0] C:\Users\boshi\.gradle\caches\transforms-3\0169ac4f2d197152d8b0f2fe2d7cb628\transformed\appcompat-1.5.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\72ecb575f1770fecf081a3d4740459b2\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] C:\Users\boshi\.gradle\caches\transforms-3\c13f0e9438930e8340e6cc0a8e0f41ab\transformed\firebase-appcheck-interop-16.1.1\AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\boshi\.gradle\caches\transforms-3\d925840d6bce52b6244046bc43e6feb0\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\a90f6b7d827803eecca6a85162b475b9\transformed\play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\boshi\.gradle\caches\transforms-3\21cf34c2663e52a01b9d93b82e3fd5ec\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\boshi\.gradle\caches\transforms-3\0efdd54f1741758d0f9b14b70032f0c8\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\277df2ec142ed3bab5f6ebc3feac2e12\transformed\play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\boshi\.gradle\caches\transforms-3\338ed9a4e04bc39abfb5fbd534ac2921\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.0] C:\Users\boshi\.gradle\caches\transforms-3\c8d3edc5b5cb19d56f5047b4a47b0db9\transformed\activity-1.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\a28973e8d443459bcf5e23b6ab9dbf9c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\a479589c33d2ca18038d4d66a91a60bb\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\27fe5872a668ab7d3cc84553c93d7751\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] C:\Users\boshi\.gradle\caches\transforms-3\5a92d97a8f10f122f5e6e9f438d305d3\transformed\lifecycle-viewmodel-2.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] C:\Users\boshi\.gradle\caches\transforms-3\6c00acd0b1bb63b0f315ee7eede2fa6b\transformed\lifecycle-viewmodel-savedstate-2.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\boshi\.gradle\caches\transforms-3\4ddac6ba68875115c2d4af6cb0787675\transformed\core-ktx-1.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:17:1-56:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\fadd845f41da480bc8dd7a166385e1cb\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\boshi\.gradle\caches\transforms-3\a9bead7e060bb37c62e6cc00807c0dc1\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\boshi\.gradle\caches\transforms-3\aa90d207eb0f8cb6d3a8e3304329d035\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\ee7ed128af8bdcf21aad81b6346a1f87\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\boshi\.gradle\caches\transforms-3\335e3dbcfcb7cad462a4e5f6a48aa7cb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\boshi\.gradle\caches\transforms-3\e1140341021e5e8496443fa855d1c561\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\boshi\.gradle\caches\transforms-3\e6de9f84466def477b60c00515a7c707\transformed\firebase-components-17.1.0\AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\330d9a84b895604d7f68f597896a71a6\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\boshi\.gradle\caches\transforms-3\bd17ea4f099e0c6081ddce9c070004ac\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\32128402a5ea11f7476ddec6354d296a\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\boshi\.gradle\caches\transforms-3\088aa5fb0c2e07339c932226a4fd47c3\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.8.0] C:\Users\boshi\.gradle\caches\transforms-3\d320732828377195461ea2de63bec6b1\transformed\core-1.8.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\c5f61a9a2b061443a9187175e232a347\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\boshi\.gradle\caches\transforms-3\a89bdc60bcf4f127927bb7fbe4b0d903\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\boshi\.gradle\caches\transforms-3\bf7eda95417b8113bc1e60b8abb99865\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0] C:\Users\boshi\.gradle\caches\transforms-3\cb9a07372c68c2acda20ab3c23413c3e\transformed\lifecycle-runtime-2.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\342e3448ec25eb2b76d487191d6820b7\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\boshi\.gradle\caches\transforms-3\fc65c20de5da1e414ab8728e8cb03bd0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\dbfc6aa3796ab46464897d8a15ed0946\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\cbf87a7a53f280b2dcff84dec94e29c6\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\696658760e4c70000d43ba36f64857fb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\4627e29d503a10fb50638c6d9506e1b1\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\boshi\.gradle\caches\transforms-3\67d9356c09fad08ab264f24f16ce4485\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.0] C:\Users\boshi\.gradle\caches\transforms-3\133e8b96f28bc367c179a37f3e81bbbe\transformed\lifecycle-livedata-core-2.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\boshi\.gradle\caches\transforms-3\231e43e7ec68d275b994fb66fc567d51\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\1bf854d6264ae57536d4de8acba8f757\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\boshi\.gradle\caches\transforms-3\72da0692dcee295e57ba8291aa0985d9\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:2:1-110:12
+INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:2:1-110:12
+INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:2:1-110:12
+	package
+		INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:2:1-110:12
+		INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:2:1-110:12
+		INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:2:1-110:12
+		INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:5:5-108:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\407b76dbdc7b3c96b54cd8bd8cc30db9\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\407b76dbdc7b3c96b54cd8bd8cc30db9\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.android.material:material:1.8.0] C:\Users\boshi\.gradle\caches\transforms-3\9d64dedd185ec454abd2312844bec8eb\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.8.0] C:\Users\boshi\.gradle\caches\transforms-3\9d64dedd185ec454abd2312844bec8eb\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\boshi\.gradle\caches\transforms-3\f3c4330b4d3d4f74bf51d71f8b28c872\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\boshi\.gradle\caches\transforms-3\f3c4330b4d3d4f74bf51d71f8b28c872\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] C:\Users\boshi\.gradle\caches\transforms-3\c13f0e9438930e8340e6cc0a8e0f41ab\transformed\firebase-appcheck-interop-16.1.1\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] C:\Users\boshi\.gradle\caches\transforms-3\c13f0e9438930e8340e6cc0a8e0f41ab\transformed\firebase-appcheck-interop-16.1.1\AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\a90f6b7d827803eecca6a85162b475b9\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\a90f6b7d827803eecca6a85162b475b9\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\boshi\.gradle\caches\transforms-3\21cf34c2663e52a01b9d93b82e3fd5ec\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\boshi\.gradle\caches\transforms-3\21cf34c2663e52a01b9d93b82e3fd5ec\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\boshi\.gradle\caches\transforms-3\0efdd54f1741758d0f9b14b70032f0c8\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\boshi\.gradle\caches\transforms-3\0efdd54f1741758d0f9b14b70032f0c8\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\277df2ec142ed3bab5f6ebc3feac2e12\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\277df2ec142ed3bab5f6ebc3feac2e12\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:46:5-54:19
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:46:5-54:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.8.0] C:\Users\boshi\.gradle\caches\transforms-3\d320732828377195461ea2de63bec6b1\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] C:\Users\boshi\.gradle\caches\transforms-3\d320732828377195461ea2de63bec6b1\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\boshi\.gradle\caches\transforms-3\a89bdc60bcf4f127927bb7fbe4b0d903\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\boshi\.gradle\caches\transforms-3\a89bdc60bcf4f127927bb7fbe4b0d903\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\boshi\.gradle\caches\transforms-3\bf7eda95417b8113bc1e60b8abb99865\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\boshi\.gradle\caches\transforms-3\bf7eda95417b8113bc1e60b8abb99865\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\boshi\.gradle\caches\transforms-3\fc65c20de5da1e414ab8728e8cb03bd0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\boshi\.gradle\caches\transforms-3\fc65c20de5da1e414ab8728e8cb03bd0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] C:\Users\boshi\.gradle\caches\transforms-3\d320732828377195461ea2de63bec6b1\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:10:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:8:9-54
+	android:roundIcon
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:11:9-54
+	tools:targetApi
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:14:9-29
+	android:icon
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:13:9-47
+	android:dataExtractionRules
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:7:9-65
+activity#com.example.busticket.userUpdateDelete
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:16:13-45
+activity#com.example.busticket.UserProfile
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:18:9-20:40
+	android:exported
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:19:13-40
+activity#com.example.busticket.RegistewrUser
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:21:9-27:20
+	android:exported
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:22:13-42
+meta-data#android.app.lib_name
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:24:13-26:36
+	android:value
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:26:17-33
+	android:name
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:25:17-52
+activity#com.example.busticket.AddBusTime
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:28:9-34:20
+	android:exported
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:29:13-39
+activity#com.example.busticket.BusTimeTable
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:35:9-41:20
+	android:exported
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:36:13-41
+activity#com.example.busticket.bookinupdateDelete
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:42:9-48:20
+	android:exported
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:43:13-47
+activity#com.example.busticket.ShitheBooking
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:49:9-55:20
+	android:exported
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:50:13-42
+activity#com.example.busticket.bashborde
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:56:9-62:20
+	android:exported
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:57:13-38
+activity#com.example.busticket.AddBusHalt
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:63:9-69:20
+	android:exported
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:65:13-37
+	android:name
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:64:13-39
+activity#com.example.busticket.displayeHalt
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:70:9-76:20
+	android:exported
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:72:13-37
+	android:name
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:71:13-41
+activity#com.example.busticket.QRticket
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:77:9-83:20
+	android:exported
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:79:13-37
+	android:name
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:78:13-37
+activity#com.example.busticket.BusTickeclculate
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:84:9-90:20
+	android:exported
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:86:13-37
+	android:name
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:85:13-45
+activity#com.example.busticket.MainActivity
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:91:9-103:20
+	android:exported
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:93:13-36
+	android:name
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:92:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:94:13-98:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:95:17-69
+	android:name
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:95:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:97:17-77
+	android:name
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:97:27-74
+meta-data#preloaded_fonts
+ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:105:9-107:57
+	android:resource
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:107:13-54
+	android:name
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:106:13-43
+uses-sdk
+INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\407b76dbdc7b3c96b54cd8bd8cc30db9\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\407b76dbdc7b3c96b54cd8bd8cc30db9\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.8.0] C:\Users\boshi\.gradle\caches\transforms-3\9d64dedd185ec454abd2312844bec8eb\transformed\material-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.8.0] C:\Users\boshi\.gradle\caches\transforms-3\9d64dedd185ec454abd2312844bec8eb\transformed\material-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\boshi\.gradle\caches\transforms-3\f3c4330b4d3d4f74bf51d71f8b28c872\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\boshi\.gradle\caches\transforms-3\f3c4330b4d3d4f74bf51d71f8b28c872\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.0] C:\Users\boshi\.gradle\caches\transforms-3\dfb7a0d9dfed408f2e7e0f1aca6425da\transformed\appcompat-resources-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.0] C:\Users\boshi\.gradle\caches\transforms-3\dfb7a0d9dfed408f2e7e0f1aca6425da\transformed\appcompat-resources-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.0] C:\Users\boshi\.gradle\caches\transforms-3\0169ac4f2d197152d8b0f2fe2d7cb628\transformed\appcompat-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.0] C:\Users\boshi\.gradle\caches\transforms-3\0169ac4f2d197152d8b0f2fe2d7cb628\transformed\appcompat-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\72ecb575f1770fecf081a3d4740459b2\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\72ecb575f1770fecf081a3d4740459b2\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] C:\Users\boshi\.gradle\caches\transforms-3\c13f0e9438930e8340e6cc0a8e0f41ab\transformed\firebase-appcheck-interop-16.1.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] C:\Users\boshi\.gradle\caches\transforms-3\c13f0e9438930e8340e6cc0a8e0f41ab\transformed\firebase-appcheck-interop-16.1.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\boshi\.gradle\caches\transforms-3\d925840d6bce52b6244046bc43e6feb0\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\boshi\.gradle\caches\transforms-3\d925840d6bce52b6244046bc43e6feb0\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\a90f6b7d827803eecca6a85162b475b9\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\a90f6b7d827803eecca6a85162b475b9\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\boshi\.gradle\caches\transforms-3\21cf34c2663e52a01b9d93b82e3fd5ec\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\boshi\.gradle\caches\transforms-3\21cf34c2663e52a01b9d93b82e3fd5ec\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\boshi\.gradle\caches\transforms-3\0efdd54f1741758d0f9b14b70032f0c8\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\boshi\.gradle\caches\transforms-3\0efdd54f1741758d0f9b14b70032f0c8\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\277df2ec142ed3bab5f6ebc3feac2e12\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\277df2ec142ed3bab5f6ebc3feac2e12\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\boshi\.gradle\caches\transforms-3\338ed9a4e04bc39abfb5fbd534ac2921\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\boshi\.gradle\caches\transforms-3\338ed9a4e04bc39abfb5fbd534ac2921\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.0] C:\Users\boshi\.gradle\caches\transforms-3\c8d3edc5b5cb19d56f5047b4a47b0db9\transformed\activity-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.0] C:\Users\boshi\.gradle\caches\transforms-3\c8d3edc5b5cb19d56f5047b4a47b0db9\transformed\activity-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\a28973e8d443459bcf5e23b6ab9dbf9c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\a28973e8d443459bcf5e23b6ab9dbf9c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\a479589c33d2ca18038d4d66a91a60bb\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\a479589c33d2ca18038d4d66a91a60bb\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\27fe5872a668ab7d3cc84553c93d7751\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\27fe5872a668ab7d3cc84553c93d7751\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] C:\Users\boshi\.gradle\caches\transforms-3\5a92d97a8f10f122f5e6e9f438d305d3\transformed\lifecycle-viewmodel-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] C:\Users\boshi\.gradle\caches\transforms-3\5a92d97a8f10f122f5e6e9f438d305d3\transformed\lifecycle-viewmodel-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] C:\Users\boshi\.gradle\caches\transforms-3\6c00acd0b1bb63b0f315ee7eede2fa6b\transformed\lifecycle-viewmodel-savedstate-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] C:\Users\boshi\.gradle\caches\transforms-3\6c00acd0b1bb63b0f315ee7eede2fa6b\transformed\lifecycle-viewmodel-savedstate-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\boshi\.gradle\caches\transforms-3\4ddac6ba68875115c2d4af6cb0787675\transformed\core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\boshi\.gradle\caches\transforms-3\4ddac6ba68875115c2d4af6cb0787675\transformed\core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\fadd845f41da480bc8dd7a166385e1cb\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\fadd845f41da480bc8dd7a166385e1cb\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\boshi\.gradle\caches\transforms-3\a9bead7e060bb37c62e6cc00807c0dc1\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\boshi\.gradle\caches\transforms-3\a9bead7e060bb37c62e6cc00807c0dc1\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\boshi\.gradle\caches\transforms-3\aa90d207eb0f8cb6d3a8e3304329d035\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\boshi\.gradle\caches\transforms-3\aa90d207eb0f8cb6d3a8e3304329d035\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\ee7ed128af8bdcf21aad81b6346a1f87\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\ee7ed128af8bdcf21aad81b6346a1f87\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\boshi\.gradle\caches\transforms-3\335e3dbcfcb7cad462a4e5f6a48aa7cb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\boshi\.gradle\caches\transforms-3\335e3dbcfcb7cad462a4e5f6a48aa7cb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\boshi\.gradle\caches\transforms-3\e1140341021e5e8496443fa855d1c561\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\boshi\.gradle\caches\transforms-3\e1140341021e5e8496443fa855d1c561\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\boshi\.gradle\caches\transforms-3\e6de9f84466def477b60c00515a7c707\transformed\firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\boshi\.gradle\caches\transforms-3\e6de9f84466def477b60c00515a7c707\transformed\firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\330d9a84b895604d7f68f597896a71a6\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\330d9a84b895604d7f68f597896a71a6\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\boshi\.gradle\caches\transforms-3\bd17ea4f099e0c6081ddce9c070004ac\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\boshi\.gradle\caches\transforms-3\bd17ea4f099e0c6081ddce9c070004ac\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\32128402a5ea11f7476ddec6354d296a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\32128402a5ea11f7476ddec6354d296a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\boshi\.gradle\caches\transforms-3\088aa5fb0c2e07339c932226a4fd47c3\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\boshi\.gradle\caches\transforms-3\088aa5fb0c2e07339c932226a4fd47c3\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\boshi\.gradle\caches\transforms-3\d320732828377195461ea2de63bec6b1\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\boshi\.gradle\caches\transforms-3\d320732828377195461ea2de63bec6b1\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\c5f61a9a2b061443a9187175e232a347\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\c5f61a9a2b061443a9187175e232a347\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\boshi\.gradle\caches\transforms-3\a89bdc60bcf4f127927bb7fbe4b0d903\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\boshi\.gradle\caches\transforms-3\a89bdc60bcf4f127927bb7fbe4b0d903\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\boshi\.gradle\caches\transforms-3\bf7eda95417b8113bc1e60b8abb99865\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\boshi\.gradle\caches\transforms-3\bf7eda95417b8113bc1e60b8abb99865\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0] C:\Users\boshi\.gradle\caches\transforms-3\cb9a07372c68c2acda20ab3c23413c3e\transformed\lifecycle-runtime-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0] C:\Users\boshi\.gradle\caches\transforms-3\cb9a07372c68c2acda20ab3c23413c3e\transformed\lifecycle-runtime-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\342e3448ec25eb2b76d487191d6820b7\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\342e3448ec25eb2b76d487191d6820b7\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\boshi\.gradle\caches\transforms-3\fc65c20de5da1e414ab8728e8cb03bd0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\boshi\.gradle\caches\transforms-3\fc65c20de5da1e414ab8728e8cb03bd0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\dbfc6aa3796ab46464897d8a15ed0946\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\dbfc6aa3796ab46464897d8a15ed0946\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\cbf87a7a53f280b2dcff84dec94e29c6\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\cbf87a7a53f280b2dcff84dec94e29c6\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\696658760e4c70000d43ba36f64857fb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\696658760e4c70000d43ba36f64857fb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\4627e29d503a10fb50638c6d9506e1b1\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\4627e29d503a10fb50638c6d9506e1b1\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\boshi\.gradle\caches\transforms-3\67d9356c09fad08ab264f24f16ce4485\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\boshi\.gradle\caches\transforms-3\67d9356c09fad08ab264f24f16ce4485\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.0] C:\Users\boshi\.gradle\caches\transforms-3\133e8b96f28bc367c179a37f3e81bbbe\transformed\lifecycle-livedata-core-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.0] C:\Users\boshi\.gradle\caches\transforms-3\133e8b96f28bc367c179a37f3e81bbbe\transformed\lifecycle-livedata-core-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\boshi\.gradle\caches\transforms-3\231e43e7ec68d275b994fb66fc567d51\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\boshi\.gradle\caches\transforms-3\231e43e7ec68d275b994fb66fc567d51\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\1bf854d6264ae57536d4de8acba8f757\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\boshi\.gradle\caches\transforms-3\1bf854d6264ae57536d4de8acba8f757\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\boshi\.gradle\caches\transforms-3\72da0692dcee295e57ba8291aa0985d9\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\boshi\.gradle\caches\transforms-3\72da0692dcee295e57ba8291aa0985d9\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\407b76dbdc7b3c96b54cd8bd8cc30db9\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\407b76dbdc7b3c96b54cd8bd8cc30db9\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:13:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:12:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:15:17-124
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\407b76dbdc7b3c96b54cd8bd8cc30db9\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\407b76dbdc7b3c96b54cd8bd8cc30db9\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\407b76dbdc7b3c96b54cd8bd8cc30db9\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:15:17-113
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:24:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:25:22-64
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:32:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\a90f6b7d827803eecca6a85162b475b9\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\a90f6b7d827803eecca6a85162b475b9\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\a90f6b7d827803eecca6a85162b475b9\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\a90f6b7d827803eecca6a85162b475b9\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\277df2ec142ed3bab5f6ebc3feac2e12\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\277df2ec142ed3bab5f6ebc3feac2e12\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\277df2ec142ed3bab5f6ebc3feac2e12\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\boshi\.gradle\caches\transforms-3\bf7eda95417b8113bc1e60b8abb99865\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\boshi\.gradle\caches\transforms-3\bf7eda95417b8113bc1e60b8abb99865\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\boshi\.gradle\caches\transforms-3\fc65c20de5da1e414ab8728e8cb03bd0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\boshi\.gradle\caches\transforms-3\fc65c20de5da1e414ab8728e8cb03bd0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\boshi\.gradle\caches\transforms-3\bf7eda95417b8113bc1e60b8abb99865\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\boshi\.gradle\caches\transforms-3\bf7eda95417b8113bc1e60b8abb99865\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\boshi\.gradle\caches\transforms-3\bf7eda95417b8113bc1e60b8abb99865\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78

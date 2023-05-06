@@ -1,0 +1,354 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.busticket"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:24:5-79
+13-->[com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:24:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:25:5-67
+14-->[com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:25:22-64
+15    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+15-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+15-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:22-62
+16    <uses-feature
+16-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+17        android:name="android.hardware.camera"
+17-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+18        android:required="false" />
+18-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+19    <uses-feature
+19-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+20        android:name="android.hardware.camera.front"
+20-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+21        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+21-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+22    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+23    <uses-feature
+23-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+24        android:name="android.hardware.camera.autofocus"
+24-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+25        android:required="false" />
+25-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+26    <uses-feature
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+27        android:name="android.hardware.camera.flash"
+27-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+28        android:required="false" />
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+29    <uses-feature
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+30        android:name="android.hardware.screen.landscape"
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+31        android:required="false" />
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+32    <uses-feature
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+33        android:name="android.hardware.wifi"
+33-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+34        android:required="false" />
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+35
+36    <application
+36-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:5:5-108:19
+37        android:allowBackup="true"
+37-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:6:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.8.0] C:\Users\boshi\.gradle\caches\transforms-3\d320732828377195461ea2de63bec6b1\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+39        android:dataExtractionRules="@xml/data_extraction_rules"
+39-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:7:9-65
+40        android:debuggable="true"
+41        android:extractNativeLibs="false"
+42        android:fullBackupContent="@xml/backup_rules"
+42-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:8:9-54
+43        android:icon="@mipmap/ic_launcher"
+43-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:9:9-43
+44        android:label="@string/app_name"
+44-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:10:9-41
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:11:9-54
+46        android:supportsRtl="true"
+46-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:12:9-35
+47        android:testOnly="true"
+48        android:theme="@style/Theme.BUSTicket" >
+48-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:13:9-47
+49        <activity
+49-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:15:9-17:40
+50            android:name="com.example.busticket.userUpdateDelete"
+50-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:16:13-45
+51            android:exported="false" />
+51-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:17:13-37
+52        <activity
+52-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:18:9-20:40
+53            android:name="com.example.busticket.UserProfile"
+53-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:19:13-40
+54            android:exported="false" />
+54-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:20:13-37
+55        <activity
+55-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:21:9-27:20
+56            android:name="com.example.busticket.RegistewrUser"
+56-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:22:13-42
+57            android:exported="false" >
+57-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:23:13-37
+58            <meta-data
+58-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:24:13-26:36
+59                android:name="android.app.lib_name"
+59-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:25:17-52
+60                android:value="" />
+60-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:26:17-33
+61        </activity>
+62        <activity
+62-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:28:9-34:20
+63            android:name="com.example.busticket.AddBusTime"
+63-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:29:13-39
+64            android:exported="false" >
+64-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:30:13-37
+65            <meta-data
+65-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:24:13-26:36
+66                android:name="android.app.lib_name"
+66-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:25:17-52
+67                android:value="" />
+67-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:26:17-33
+68        </activity>
+69        <activity
+69-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:35:9-41:20
+70            android:name="com.example.busticket.BusTimeTable"
+70-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:36:13-41
+71            android:exported="false" >
+71-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:37:13-37
+72            <meta-data
+72-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:24:13-26:36
+73                android:name="android.app.lib_name"
+73-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:25:17-52
+74                android:value="" />
+74-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:26:17-33
+75        </activity>
+76        <activity
+76-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:42:9-48:20
+77            android:name="com.example.busticket.bookinupdateDelete"
+77-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:43:13-47
+78            android:exported="false" >
+78-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:44:13-37
+79            <meta-data
+79-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:24:13-26:36
+80                android:name="android.app.lib_name"
+80-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:25:17-52
+81                android:value="" />
+81-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:26:17-33
+82        </activity>
+83        <activity
+83-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:49:9-55:20
+84            android:name="com.example.busticket.ShitheBooking"
+84-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:50:13-42
+85            android:exported="false" >
+85-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:51:13-37
+86            <meta-data
+86-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:24:13-26:36
+87                android:name="android.app.lib_name"
+87-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:25:17-52
+88                android:value="" />
+88-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:26:17-33
+89        </activity>
+90        <activity
+90-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:56:9-62:20
+91            android:name="com.example.busticket.bashborde"
+91-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:57:13-38
+92            android:exported="false" >
+92-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:58:13-37
+93            <meta-data
+93-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:24:13-26:36
+94                android:name="android.app.lib_name"
+94-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:25:17-52
+95                android:value="" />
+95-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:26:17-33
+96        </activity>
+97        <activity
+97-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:63:9-69:20
+98            android:name="com.example.busticket.AddBusHalt"
+98-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:64:13-39
+99            android:exported="false" >
+99-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:65:13-37
+100            <meta-data
+100-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:24:13-26:36
+101                android:name="android.app.lib_name"
+101-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:25:17-52
+102                android:value="" />
+102-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:26:17-33
+103        </activity>
+104        <activity
+104-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:70:9-76:20
+105            android:name="com.example.busticket.displayeHalt"
+105-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:71:13-41
+106            android:exported="false" >
+106-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:72:13-37
+107            <meta-data
+107-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:24:13-26:36
+108                android:name="android.app.lib_name"
+108-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:25:17-52
+109                android:value="" />
+109-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:26:17-33
+110        </activity>
+111        <activity
+111-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:77:9-83:20
+112            android:name="com.example.busticket.QRticket"
+112-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:78:13-37
+113            android:exported="false" >
+113-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:79:13-37
+114            <meta-data
+114-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:24:13-26:36
+115                android:name="android.app.lib_name"
+115-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:25:17-52
+116                android:value="" />
+116-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:26:17-33
+117        </activity>
+118        <activity
+118-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:84:9-90:20
+119            android:name="com.example.busticket.BusTickeclculate"
+119-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:85:13-45
+120            android:exported="false" >
+120-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:86:13-37
+121            <meta-data
+121-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:24:13-26:36
+122                android:name="android.app.lib_name"
+122-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:25:17-52
+123                android:value="" />
+123-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:26:17-33
+124        </activity>
+125        <activity
+125-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:91:9-103:20
+126            android:name="com.example.busticket.MainActivity"
+126-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:92:13-41
+127            android:exported="true" >
+127-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:93:13-36
+128            <intent-filter>
+128-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:94:13-98:29
+129                <action android:name="android.intent.action.MAIN" />
+129-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:95:17-69
+129-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:95:25-66
+130
+131                <category android:name="android.intent.category.LAUNCHER" />
+131-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:97:17-77
+131-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:97:27-74
+132            </intent-filter>
+133
+134            <meta-data
+134-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:24:13-26:36
+135                android:name="android.app.lib_name"
+135-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:25:17-52
+136                android:value="" />
+136-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:26:17-33
+137        </activity>
+138
+139        <meta-data
+139-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:105:9-107:57
+140            android:name="preloaded_fonts"
+140-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:106:13-43
+141            android:resource="@array/preloaded_fonts" />
+141-->C:\Users\boshi\Desktop\babababab\Bus-Tickets-MAD-\app\src\main\AndroidManifest.xml:107:13-54
+142
+143        <service
+143-->[com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:11:9-17:19
+144            android:name="com.google.firebase.components.ComponentDiscoveryService"
+144-->[com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:12:13-84
+145            android:directBootAware="true"
+145-->[com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+146            android:exported="false" >
+146-->[com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:13:13-37
+147            <meta-data
+147-->[com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+148                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+148-->[com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:15:17-124
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\12bd5f7d63e394c5a0c08990ed313af1\transformed\firebase-database-ktx-20.2.0\AndroidManifest.xml:16:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\407b76dbdc7b3c96b54cd8bd8cc30db9\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
+151                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+151-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\407b76dbdc7b3c96b54cd8bd8cc30db9\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:15:17-113
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\407b76dbdc7b3c96b54cd8bd8cc30db9\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:16:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:31:13-33:85
+154                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+154-->[com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:32:17-109
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-database:20.2.0] C:\Users\boshi\.gradle\caches\transforms-3\d39b5e86553c3150a6e5272ea2214aea\transformed\firebase-database-20.2.0\AndroidManifest.xml:33:17-82
+156        </service>
+157
+158        <activity
+158-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\a90f6b7d827803eecca6a85162b475b9\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+159            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+159-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\a90f6b7d827803eecca6a85162b475b9\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+160            android:exported="false"
+160-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\a90f6b7d827803eecca6a85162b475b9\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+161            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+161-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\a90f6b7d827803eecca6a85162b475b9\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+162
+163        <provider
+163-->[com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+164            android:name="com.google.firebase.provider.FirebaseInitProvider"
+164-->[com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+165            android:authorities="com.example.busticket.firebaseinitprovider"
+165-->[com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+166            android:directBootAware="true"
+166-->[com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+167            android:exported="false"
+167-->[com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+168            android:initOrder="100" />
+168-->[com.google.firebase:firebase-common:20.3.2] C:\Users\boshi\.gradle\caches\transforms-3\6d9c368446526ca1114d5a5c5b5e71a9\transformed\firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+169
+170        <meta-data
+170-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\277df2ec142ed3bab5f6ebc3feac2e12\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+171            android:name="com.google.android.gms.version"
+171-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\277df2ec142ed3bab5f6ebc3feac2e12\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+172            android:value="@integer/google_play_services_version" />
+172-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\boshi\.gradle\caches\transforms-3\277df2ec142ed3bab5f6ebc3feac2e12\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+173
+174        <activity
+174-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+175            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+175-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+176            android:clearTaskOnLaunch="true"
+176-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+177            android:screenOrientation="sensorLandscape"
+177-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+178            android:stateNotNeeded="true"
+178-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+179            android:theme="@style/zxing_CaptureTheme"
+179-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+180            android:windowSoftInputMode="stateAlwaysHidden" />
+180-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\boshi\.gradle\caches\transforms-3\360b780c62fd455c8b28f92cba9ca689\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+181
+182        <provider
+182-->[androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+183            android:name="androidx.startup.InitializationProvider"
+183-->[androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+184            android:authorities="com.example.busticket.androidx-startup"
+184-->[androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+185            android:exported="false" >
+185-->[androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+186            <meta-data
+186-->[androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+187                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+187-->[androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+188                android:value="androidx.startup" />
+188-->[androidx.emoji2:emoji2:1.2.0] C:\Users\boshi\.gradle\caches\transforms-3\c7def3f54ef6c1363218761ce1874746\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+189            <meta-data
+189-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\boshi\.gradle\caches\transforms-3\bf7eda95417b8113bc1e60b8abb99865\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+190                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+190-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\boshi\.gradle\caches\transforms-3\bf7eda95417b8113bc1e60b8abb99865\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+191                android:value="androidx.startup" />
+191-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\boshi\.gradle\caches\transforms-3\bf7eda95417b8113bc1e60b8abb99865\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+192        </provider>
+193    </application>
+194
+195</manifest>

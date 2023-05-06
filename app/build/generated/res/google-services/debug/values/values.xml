@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1041788692249-bbshvsvuso9pahnjkaeketvo2039lc7r.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1041788692249</string>
+    <string name="google_api_key" translatable="false">AIzaSyCnOFeqkddCytZVB2Y75dmmq9tqRTM5rBE</string>
+    <string name="google_app_id" translatable="false">1:1041788692249:android:6f82c9f9104b2bf2640788</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCnOFeqkddCytZVB2Y75dmmq9tqRTM5rBE</string>
+    <string name="google_storage_bucket" translatable="false">busticket-ec18d.appspot.com</string>
+    <string name="project_id" translatable="false">busticket-ec18d</string>
+</resources>
