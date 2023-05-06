@@ -44,10 +44,11 @@ class MainActivity : AppCompatActivity() {
                    val passw =it.child("passwored").value
                    val disname = it.child("displayename").value
 
-
+                   val  p = disname.toString()
                    if ((Username ==auser) && (AuthPassword == passw)){
-                       val o = Intent(this,bashborde::class.java)
-                       startActivity(o)
+                       val os = Intent(this,bashborde::class.java)
+                         os.putExtra("nickname",p)
+                       startActivity(os)
                    }else{
                        Toast.makeText(this,"plese enter correcte",Toast.LENGTH_LONG).show()
                    }

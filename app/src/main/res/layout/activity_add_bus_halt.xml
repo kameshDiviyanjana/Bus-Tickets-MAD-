@@ -24,7 +24,7 @@
                 android:layout_width="246dp"
                 android:layout_height="53dp"
                 android:backgroundTint="#F48764"
-                android:text="Button"
+                android:text="Update"
                 app:cornerRadius="@dimen/buttoneconnerRadius"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

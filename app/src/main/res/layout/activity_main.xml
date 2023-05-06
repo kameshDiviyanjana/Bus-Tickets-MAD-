@@ -70,7 +70,7 @@
                 android:layout_width="332dp"
                 android:layout_height="57dp"
                 android:backgroundTint="@color/themclore"
-                android:text="Button"
+                android:text="login"
                 app:cornerRadius="32dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

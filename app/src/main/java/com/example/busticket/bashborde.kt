@@ -5,6 +5,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
+import android.widget.TextView
 
 class bashborde : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
@@ -16,7 +17,11 @@ class bashborde : AppCompatActivity() {
         val startTripe = findViewById<ImageView>(R.id.bushaltadd)
         val profile = findViewById<ImageView>(R.id.profile)
         val money = findViewById<ImageView>(R.id.money)
+        val disnamr = findViewById<TextView>(R.id.nickdash)
+         val buble : Bundle?= intent.extras
 
+         var name  = buble!!.getString("nickname")
+        disnamr.text = name
         addbus.setOnClickListener{
 
             val busadd = Intent(this,AddBusHalt::class.java)
