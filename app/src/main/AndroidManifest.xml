@@ -13,6 +13,12 @@
         android:theme="@style/Theme.BUSTicket"
         tools:targetApi="31">
         <activity
+            android:name=".userUpdateDelete"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
             android:name=".RegistewrUser"
             android:exported="false">
             <meta-data
@@ -98,6 +104,10 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

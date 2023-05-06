@@ -50,10 +50,10 @@ class MainActivity : AppCompatActivity() {
                          os.putExtra("nickname",p)
                        startActivity(os)
                    }else{
-                       Toast.makeText(this,"plese enter correcte",Toast.LENGTH_LONG).show()
+                       Toast.makeText(this,"Fill all Fields",Toast.LENGTH_LONG).show()
                    }
                }else{
-                   Toast.makeText(this,"Enter plese enter correcte",Toast.LENGTH_LONG).show()
+                   Toast.makeText(this,"Incorrect username or Password",Toast.LENGTH_LONG).show()
                }
            }
 

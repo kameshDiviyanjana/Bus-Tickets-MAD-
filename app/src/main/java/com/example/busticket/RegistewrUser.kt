@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.RadioButton
+import android.widget.TextView
 import android.widget.Toast
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
@@ -24,6 +25,17 @@ class RegistewrUser : AppCompatActivity() {
         val disname =findViewById<EditText>(R.id.Adisname)
         val Aemail = findViewById<EditText>(R.id.Aemail)
         val passw= findViewById<EditText>(R.id.Apassword)
+        val cancel=findViewById<Button>(R.id.cancel)
+        val backSignUp=findViewById<TextView>(R.id.signIN)
+
+        cancel.setOnClickListener{
+            val cancel1 = Intent(this,MainActivity::class.java)
+            startActivity(cancel1)
+        }
+        backSignUp.setOnClickListener{
+            val back = Intent(this,MainActivity::class.java)
+            startActivity(back)
+        }
 
         rsgister.setOnClickListener {
             dbcon = FirebaseDatabase.getInstance().getReference("Users")
@@ -39,11 +51,11 @@ class RegistewrUser : AppCompatActivity() {
                     startActivity(move)
                 }.addOnFailureListener {
 
-                    Toast.makeText(this,"usr add connction not work", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this,"Sign up failed.Please try Again!", Toast.LENGTH_LONG).show()
                 }
             }else{
 
-                Toast.makeText(this,"enter valid details", Toast.LENGTH_LONG).show()
+                Toast.makeText(this,"Enter all the fields", Toast.LENGTH_LONG).show()
             }
 
 

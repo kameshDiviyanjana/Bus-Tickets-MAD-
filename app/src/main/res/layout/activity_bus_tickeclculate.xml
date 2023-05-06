@@ -11,10 +11,8 @@
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/materialCardView2"
         style="@style/custom_card_view_style"
-        android:layout_width="393dp"
-        android:layout_height="671dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="136dp"
+        android:layout_width="377dp"
+        android:layout_height="644dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 

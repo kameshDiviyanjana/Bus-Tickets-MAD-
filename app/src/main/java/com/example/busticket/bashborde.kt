@@ -18,15 +18,24 @@ class bashborde : AppCompatActivity() {
         val profile = findViewById<ImageView>(R.id.profile)
         val money = findViewById<ImageView>(R.id.money)
         val disnamr = findViewById<TextView>(R.id.nickdash)
+        val userprofile=findViewById<ImageView>(R.id.imageView3)
          val buble : Bundle?= intent.extras
 
          var name  = buble!!.getString("nickname")
         disnamr.text = name
+
         addbus.setOnClickListener{
 
             val busadd = Intent(this,AddBusHalt::class.java)
             startActivity(busadd)
         }
+        userprofile.setOnClickListener{
+
+            val userPro = Intent(this,UserProfile::class.java)
+            startActivity(userPro)
+        }
+
+
         startTripe.setOnClickListener{
 
             val halt = Intent(this,displayeHalt::class.java)
