@@ -11,10 +11,10 @@
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/materialCardView2"
         style="@style/custom_card_view_style"
-        android:layout_width="362dp"
-        android:layout_height="642dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginBottom="4dp"
+        android:layout_width="393dp"
+        android:layout_height="671dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="136dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
@@ -32,7 +32,7 @@
                 app:cornerRadius="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.301"
+                app:layout_constraintHorizontal_bias="0.503"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.844" />
@@ -50,9 +50,9 @@
                 android:textColorHint="@color/hintcolore"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.2"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.499" />
 
             <EditText
                 android:id="@+id/toedite"
@@ -67,10 +67,9 @@
                 android:textColorHint="@color/hintcolore"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.088"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.32" />
+                app:layout_constraintVertical_bias="0.281" />
 
             <EditText
                 android:id="@+id/km"
@@ -85,10 +84,9 @@
                 android:textColorHint="@color/hintcolore"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.212"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.718" />
+                app:layout_constraintVertical_bias="0.706" />
 
             <EditText
                 android:id="@+id/from"
@@ -103,26 +101,25 @@
                 android:textColorHint="@color/hintcolore"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.2"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.1" />
+                app:layout_constraintVertical_bias="0.084" />
 
             <TextView
                 android:id="@+id/hati2"
                 android:layout_width="@dimen/textviewWidth"
                 android:layout_height="@dimen/textviewheight"
-                android:text="@string/To"
+                android:text="To"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.358"
+                app:layout_constraintHorizontal_bias="0.436"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.207" />
+                app:layout_constraintVertical_bias="0.206" />
 
             <TextView
                 android:id="@+id/hati5"
@@ -135,10 +132,10 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.397"
+                app:layout_constraintHorizontal_bias="0.436"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.609" />
+                app:layout_constraintVertical_bias="0.63" />
 
             <TextView
                 android:id="@+id/hati4"
@@ -151,10 +148,10 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.358"
+                app:layout_constraintHorizontal_bias="0.436"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.402" />
+                app:layout_constraintVertical_bias="0.423" />
 
             <TextView
                 android:id="@+id/hati"
@@ -167,7 +164,7 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.358"
+                app:layout_constraintHorizontal_bias="0.436"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.01" />

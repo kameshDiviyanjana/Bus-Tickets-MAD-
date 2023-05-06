@@ -1,215 +1,185 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A54848"
+    android:background="#B13737"
     android:backgroundTint="@color/themclore"
-    tools:context=".ShitheBooking">
+    android:textAlignment="center"
+    tools:context=".BusTimeTable">
 
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/materialCardView4"
-        style="@style/border_bottome"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:layout_marginTop="4dp"
-        app:cardElevation="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/Toid"
+            android:layout_width="@dimen/bookinwidth"
+            android:layout_height="@dimen/bookingheight"
+            android:background="@drawable/textshap"
+            android:ems="10"
+            android:hint="ID"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.468"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.108" />
 
-            <EditText
-                android:id="@+id/Toid"
-                android:layout_width="@dimen/bookinwidth"
-                android:layout_height="@dimen/bookingheight"
-                android:background="@drawable/textshap"
-                android:ems="10"
-                android:hint="ID"
-                android:inputType="textPersonName"
-                android:textAlignment="center"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.28"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.195" />
+        <EditText
+            android:id="@+id/fromid"
+            android:layout_width="@dimen/bookinwidth"
+            android:layout_height="@dimen/bookingheight"
+            android:background="@drawable/textshap"
+            android:ems="10"
+            android:hint="From"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.264" />
 
-            <EditText
-                android:id="@+id/fromid"
-                android:layout_width="@dimen/bookinwidth"
-                android:layout_height="@dimen/bookingheight"
-                android:background="@drawable/textshap"
-                android:ems="10"
-                android:hint="From"
-                android:inputType="textPersonName"
-                android:textAlignment="center"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.427"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.534" />
+        <EditText
+            android:id="@+id/dateid"
+            android:layout_width="@dimen/bookinwidth"
+            android:layout_height="@dimen/bookingheight"
+            android:background="@drawable/textshap"
+            android:ems="10"
+            android:hint="TO"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.468"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.415" />
 
-            <EditText
-                android:id="@+id/dateid"
-                android:layout_width="@dimen/bookinwidth"
-                android:layout_height="@dimen/bookingheight"
-                android:background="@drawable/textshap"
-                android:ems="10"
-                android:hint="TO"
-                android:inputType="textPersonName"
-                android:textAlignment="center"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.43"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.937" />
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="123dp"
+            android:layout_height="34dp"
+            android:text="NIC"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.065" />
 
-            <TextView
-                android:id="@+id/textView13"
-                android:layout_width="123dp"
-                android:layout_height="34dp"
-                android:text="NIC"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.42"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.057" />
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="123dp"
+            android:layout_height="34dp"
+            android:text="from"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.217" />
 
-            <TextView
-                android:id="@+id/textView14"
-                android:layout_width="123dp"
-                android:layout_height="34dp"
-                android:text="from"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.468"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.415" />
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="123dp"
+            android:layout_height="34dp"
+            android:text="TO"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.364" />
 
-            <TextView
-                android:id="@+id/textView15"
-                android:layout_width="123dp"
-                android:layout_height="34dp"
-                android:text="TO"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.42"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.735" />
+        <EditText
+            android:id="@+id/fromss"
+            android:layout_width="@dimen/bookinwidth"
+            android:layout_height="@dimen/bookingheight"
+            android:background="@drawable/textshap"
+            android:ems="10"
+            android:hint="Passenger"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.468"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.764" />
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </com.google.android.material.card.MaterialCardView>
+        <EditText
+            android:id="@+id/timeid"
+            android:layout_width="@dimen/bookinwidth"
+            android:layout_height="@dimen/bookingheight"
+            android:background="@drawable/textshap"
+            android:ems="10"
+            android:hint="Date"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.593" />
 
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/materialCardView3"
-        style="@style/border_bottome_top"
-        android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:layout_marginTop="444dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        <Button
+            android:id="@+id/submitrbtn"
+            android:layout_width="251dp"
+            android:layout_height="52dp"
+            android:backgroundTint="@color/Addcloure"
+            android:text="submit"
+            app:cornerRadius="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.871" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="123dp"
+            android:layout_height="34dp"
+            android:text="Passenger"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.704" />
 
-            <EditText
-                android:id="@+id/fromss"
-                android:layout_width="@dimen/bookinwidth"
-                android:layout_height="@dimen/bookingheight"
-                android:background="@drawable/textshap"
-                android:ems="10"
-                android:hint="Passenger"
-                android:inputType="textPersonName"
-                android:textAlignment="center"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.48"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.222" />
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="121dp"
+            android:layout_height="29dp"
+            android:text="Date"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.539" />
 
-            <EditText
-                android:id="@+id/timeid"
-                android:layout_width="@dimen/bookinwidth"
-                android:layout_height="@dimen/bookingheight"
-                android:background="@drawable/textshap"
-                android:ems="10"
-                android:hint="Date"
-                android:inputType="textPersonName"
-                android:textAlignment="center"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.473"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.593" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <Button
-                android:id="@+id/submitrbtn"
-                android:layout_width="251dp"
-                android:layout_height="52dp"
-                android:backgroundTint="@color/Addcloure"
-                android:text="submite"
-                app:cornerRadius="24dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.364"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.828" />
-
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="123dp"
-                android:layout_height="34dp"
-                android:text="Passenger"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.455"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.057" />
-
-            <TextView
-                android:id="@+id/textView17"
-                android:layout_width="121dp"
-                android:layout_height="29dp"
-                android:text="Date"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.413"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.431" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </com.google.android.material.card.MaterialCardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

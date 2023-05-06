@@ -20,6 +20,9 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".seat_select"
+            android:exported="false" />
+        <activity
             android:name=".AddBusTime"
             android:exported="false">
             <meta-data

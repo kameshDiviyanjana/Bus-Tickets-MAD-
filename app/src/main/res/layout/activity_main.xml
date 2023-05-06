@@ -70,7 +70,7 @@
                 android:layout_width="332dp"
                 android:layout_height="57dp"
                 android:backgroundTint="@color/themclore"
-                android:text="login"
+                android:text="Log In"
                 app:cornerRadius="32dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -81,9 +81,9 @@
 
             <TextView
                 android:id="@+id/textView28"
-                android:layout_width="134dp"
-                android:layout_height="21dp"
-                android:text="Don''t have Account ? "
+                android:layout_width="189dp"
+                android:layout_height="27dp"
+                android:text="Don't have an Account ? "
                 android:textColor="#1C1B1B"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -97,15 +97,15 @@
                 android:id="@+id/singin"
                 android:layout_width="134dp"
                 android:layout_height="21dp"
-                android:text="singin"
+                android:text="Sign In"
                 android:textColor="@color/app_text_boder"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.79"
+                app:layout_constraintHorizontal_bias="0.833"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.634" />
+                app:layout_constraintVertical_bias="0.625" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>
@@ -114,7 +114,7 @@
         android:id="@+id/textView6"
         android:layout_width="330dp"
         android:layout_height="57dp"
-        android:text="welcom Bus Tickete"
+        android:text="Welcome Easy Bus"
         android:textAlignment="center"
         android:textColor="@color/app_text_background"
         android:textSize="34sp"
