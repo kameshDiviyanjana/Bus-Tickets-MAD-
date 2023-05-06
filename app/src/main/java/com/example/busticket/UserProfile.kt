@@ -27,14 +27,14 @@ class UserProfile : AppCompatActivity() {
         val edit=findViewById<Button>(R.id.editBtn)
 
         edit.setOnClickListener {
-            val edit1 = Intent(this, userUpdateDelete::class.java)
+           val edit1 = Intent(this, userUpdateDelete::class.java)
             startActivity(edit1)
         }
 
 
         add.setOnClickListener {
 
-            val name1  = name.text.toString()
+           val name1  = name.text.toString()
             val mobile1  = mobile.text.toString()
             val uType1  = uType.text.toString()
             val district1  = district.text.toString()

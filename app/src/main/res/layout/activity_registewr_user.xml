@@ -151,7 +151,7 @@
         android:id="@+id/textView18"
         android:layout_width="225dp"
         android:layout_height="29dp"
-        android:fontFamily="@font/roboto"
+
         android:textStyle="bold"
         android:text="New Account"
         android:textColor="@color/texthint"
