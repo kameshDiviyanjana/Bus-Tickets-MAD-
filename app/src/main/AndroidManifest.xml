@@ -23,6 +23,12 @@
             android:name=".UserProfile"
             android:exported="false" />
         <activity
+            android:name=".Ticket_details"
+            android:exported="false" />
+        <activity
+            android:name=".payment_method"
+            android:exported="false" />
+        <activity
             android:name=".RegistewrUser"
             android:exported="false">
             <meta-data
