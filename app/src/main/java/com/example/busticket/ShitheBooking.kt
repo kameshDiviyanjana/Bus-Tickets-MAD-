@@ -45,7 +45,7 @@ class ShitheBooking : AppCompatActivity() {
                  Passenger.text.clear()
 
                  Toast.makeText(this,"sucessfull ",Toast.LENGTH_LONG).show()
-                  val go = Intent(this,bookinupdateDelete::class.java)
+                  val go = Intent(this,seat_select::class.java)
                  startActivity(go)
 
 
