@@ -102,7 +102,7 @@ class userUpdateDelete : AppCompatActivity() {
                 Toast.makeText(this,"Update Successfull", Toast.LENGTH_LONG).show()
             }
                 .addOnFailureListener {
-                    Toast.makeText(this,"update not connectred", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this,"update not successful", Toast.LENGTH_LONG).show()
                 }
         }
 

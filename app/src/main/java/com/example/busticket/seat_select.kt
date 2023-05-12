@@ -24,7 +24,7 @@ class seat_select : AppCompatActivity() {
 
         val nextupdate = findViewById<Button>(R.id.shiteBookId)
         nextupdate.setOnClickListener {
-            val inten = Intent(this,bookinupdateDelete::class.java)
+            val inten = Intent(this,payment_method::class.java)
             startActivity(inten)
         }
         recycleBus =findViewById(R.id.shitenumber)
@@ -49,10 +49,12 @@ class seat_select : AppCompatActivity() {
                     recycleBus.adapter =adp
                     adp.setonItemClickListener(object : Shite_Books_number_Adapter.onItemClickListener{
                         override fun inItemckick(position: Int) {
+
                            val o = buslistss[position].number
                             val g = findViewById<EditText>(R.id.shownumber)
                            val d = g.setText(o)
                             Toast.makeText(this@seat_select,"Adding pass", Toast.LENGTH_LONG).show()
+
                         }
 
                     })

@@ -9,7 +9,7 @@
     tools:context=".RegistewrUser">
 
     <Button
-        android:id="@+id/submitrbtn2"
+        android:id="@+id/paymentidbtn"
         android:layout_width="251dp"
         android:layout_height="52dp"
         android:backgroundTint="@color/Addcloure"
